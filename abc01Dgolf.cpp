@@ -1,0 +1,2 @@
+#include<cstdio>
+int t[999],s,e,i,u,p;int main(){for(scanf("%d",&i);i--;e=(e+4)/5,t[s/5]++,t[e+(e%20==12)*8]--)scanf("%d-%d",&s,&e);for(;u+=t[i],i<481;p=u,i++)if(!u^!p)printf("%04d%c",i*5,p?'\n':'-');}
